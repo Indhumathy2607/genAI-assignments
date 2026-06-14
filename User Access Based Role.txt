@@ -1,0 +1,32 @@
+Weak Context: 
+Generate Test Script for Role-Based Access Control in the documents Application
+
+Context
+
+Act as a Automation Lead to write testscript for Role-based access rules in Documents Application
+
+Instructions
+
+[MANDATORY] Generate Type Script with Playwright version along with the page object model
+[MANDATORY] Need to Design the Test Scripts in BDD Framework
+[MANDATORY] Use Test and Priority annotations
+[CRITICAL] Verify the Admin Access alone should use the Application
+[CRITICAL] Validate the Role of the user who has logged in the application
+[MANDATORY] Verify the Non-admin user cannot be able to view the Admin rules Access Page
+[MANDATORY] Validate the Full access controls should be able to access for the Admin Users
+[STRICT] Generate the .Feature and .Spec.js and Steps definition file
+[MANDATORY] Find the locator along with Explicit waits
+[CRITICAL] Do not add any implicit waits in the code
+[HIGHPRIORITY] Implement Retry mechanism
+[HIGHPRIORITY] Implement Exception Handling
+[MANDATORY] Add Assertions in each step
+[LOWPRIORITY] Add comments to explain the code in pages and Test scripts, Steps
+
+Persona:
+Act as a Automation Lead to Review the testscripts and Give the Source code
+
+Output:
+Code should be a downloadable html file
+
+Tone:
+Generate the output in professional and concise manner, focusing on the both functional and non-functional aspects of the code
